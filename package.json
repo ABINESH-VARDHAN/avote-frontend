@@ -1,7 +1,7 @@
 {
   "name": "avote-frontend",
   "version": "1.0.0",
-  "description": "AVote — Notes App Frontend (React + Vite)",
+  "description": "AVote frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
