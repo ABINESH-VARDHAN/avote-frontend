@@ -487,8 +487,7 @@ function LineInput({placeholder, type="text", value, onChange, onEnter, icon}) {
         onChange={e=>onChange(e.target.value)}
         onFocus={()=>setFocus(true)} onBlur={()=>setFocus(false)}
         onKeyDown={e=>e.key==="Enter"&&onEnter&&onEnter()}
-        style={{border:"none",background:"transparent",fontSize:16,fontFamily:"'Lora',serif",flex:1,color:"#1a1a1a"}}
-        placeholder={placeholder}/>
+        style={{border:"none",background:"transparent",fontSize:16,fontFamily:"'Lora',serif",flex:1,color:"#1a1a1a"}}/>
     </div>
   );
 }
